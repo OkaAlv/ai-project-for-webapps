@@ -1,0 +1,16 @@
+# Virtual Environment
+# Folder ini berisi library python, tidak perlu di-upload
+venv/
+/venv
+
+# Python cache
+# File-file sementara yang dibuat Python
+__pycache__/
+*.pyc
+
+# File environment yang berisi API Key rahasia Anda
+# INI BAGIAN PALING PENTING!
+.env
+
+# File lain-lain yang biasa diabaikan
+.DS_Store
