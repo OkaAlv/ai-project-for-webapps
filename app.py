@@ -16,7 +16,7 @@ if not GOOGLE_API_KEY:
 genai.configure(api_key=GOOGLE_API_KEY)
 
 try:
-    model = genai.GenerativeModel('gemini-1.5-flash-latest')
+    model = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e:
     raise ValueError(f"Tidak dapat menginisialisasi model. Detail: {e}")
 
